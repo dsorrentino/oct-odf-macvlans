@@ -9,7 +9,7 @@ Do not add Community Tools category nav here. Users open this page from the stor
 | | Value |
 | --- | --- |
 | Plugin ID / ConsolePlugin / `package.json` `consolePlugin.name` | **`oct-odf-macvlans`** |
-| Image | `quay.io/cjanisze/oct-odf-macvlans:<semver>-ocp<major.minor>` |
+| Image | `quay.io/openshift-community-tools/oct-odf-macvlans:<semver>-ocp<major.minor>` |
 | i18n | `plugin__oct-odf-macvlans` |
 
 Display name is **ODF Macvlans**. No PVC, no sidecar, no RBAC in the bundle: every API call runs as the logged-in console user (cluster-admin) through the Console SDK proxy.
