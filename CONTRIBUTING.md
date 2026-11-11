@@ -42,7 +42,7 @@ oc set image deploy/oct-odf-macvlans -n oct-odf-macvlans plugin=quay.io/<you>/oc
 **Otherwise** deploy the YAML in this repo with your image:
 
 ```bash
-sed 's|quay.io/cjanisze/oct-odf-macvlans:[^ ]*|quay.io/<you>/oct-odf-macvlans:dev|' deploy/install.yaml | oc apply -f -
+sed 's|quay.io/openshift-community-tools/oct-odf-macvlans:[^ ]*|quay.io/<you>/oct-odf-macvlans:dev|' deploy/install.yaml | oc apply -f -
 ```
 
 and enable the plugin in the console (skip if the storefront already enabled it):

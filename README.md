@@ -55,7 +55,7 @@ yarn test
 yarn build
 ```
 
-Images: `quay.io/cjanisze/oct-odf-macvlans:<semver>-ocp<major.minor>`; publish both `-ocp4.21` and `-ocp4.22`.
+Images: `quay.io/openshift-community-tools/oct-odf-macvlans:<semver>-ocp<major.minor>`; publish both `-ocp4.21` and `-ocp4.22`.
 
 ## Contributing
 
